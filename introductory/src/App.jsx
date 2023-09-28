@@ -1,9 +1,11 @@
 
 
-function App() {
+export default function App() {
     return (
-    <h1 className="bg-blue-300">Hello there!</h1>
+      <div className="bg-yellow-300 h-96 w-96 flex justify-center rounded-xl">
+          <h1 className="mt-44 text-4xl">Hello, World!</h1>
+      </div>
   )
 }
 
-export default App
+
