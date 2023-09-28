@@ -1,8 +1,14 @@
+import List from "./listComponent"
 
 
 function App() {
+
+  const arrayOfAnimals = ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse'];
+  const arrayOfComponents = arrayOfAnimals.map((el, index)=> <List key={index} name={el} />)
     return (
-    <h1 className="bg-blue-300">Hello there!</h1>
+    <div className="m-5">
+      {arrayOfComponents}
+    </div>
   )
 }
 
