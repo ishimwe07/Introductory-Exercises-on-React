@@ -14,15 +14,15 @@ function App() {
     
 
     return (
-  <div className="grid justify-center gap-5 mt-[10%]">
-    <input
-        className="border-2 border-blue-500 active:border-black py-2 pr-10 rounded-md"
-        type="text" 
-        placeholder="First Name" 
-        value={names.firstName} 
-        name="firstName" 
-        onChange={(e)=>handleChange(e)}
-        />
+      <div className="grid justify-center gap-5 mt-[10%]">
+        <input
+            className="border-2 border-blue-500 active:border-black py-2 pr-10 rounded-md"
+            type="text" 
+            placeholder="First Name" 
+            value={names.firstName} 
+            name="firstName" 
+            onChange={(e)=>handleChange(e)}
+            />
 
     <input 
         className="border-2 border-blue-500 active:border-black py-2 pr-10 rounded-md"
