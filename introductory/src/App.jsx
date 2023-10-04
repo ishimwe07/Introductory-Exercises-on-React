@@ -1,9 +1,7 @@
 import Button from "./buttonComponent"
-
 function App() {
 
-
-    function handleClick(id){
+    const  handleClick = (id) => {
       alert(`You Just Clicked Button ${id}`);
     }
 

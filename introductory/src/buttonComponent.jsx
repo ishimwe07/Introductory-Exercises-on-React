@@ -1,5 +1,4 @@
-export default function Button(props){
-    const {id, clickHandle} = props;
+export default function Button({id, clickHandle}){
 
     return (
         <button 
