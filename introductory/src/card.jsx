@@ -21,14 +21,12 @@ export default function Card({
         </div>
 
         <div className="flip-card-back bg-blue-400 rounded-xl p-5 text-xl text-slate-900">
-          <h1>First Name: {firstName}</h1>
-          <h1>Last Name: {lastName}</h1>
-          <h1>Gender: {gender}</h1>
-          <h1>Employment title: {job} </h1>
-          <h1>Key Skills: {keySkills}</h1>
-          <h1>
-            Phone Number: <br /> {phoneNumber}
-          </h1>
+          <span>First Name: {firstName}</span>
+          <span>Last Name: {lastName}</span>
+          <span>Gender: {gender}</span>
+          <span>Employment title: {job} </span>
+          <span>Key Skills: {keySkills}</span>
+          <span>Phone Number: {phoneNumber}</span>
         </div>
       </div>
     </div>
